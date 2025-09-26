@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
                             end = WindowInsets.safeDrawing.asPaddingValues()
                                 .calculateEndPadding(layoutDirection)
                         )
-                ){
+                ) {
                     val windowSize = calculateWindowSizeClass(this)
                     ReplyApp(
                         windowSize = windowSize.widthSizeClass,
